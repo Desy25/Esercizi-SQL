@@ -1,0 +1,5 @@
+BEGIN TRANSACTION;
+
+DELETE FROM YourDatabaseName.Books WHERE book_id = 103;
+
+ROLLBACK;
